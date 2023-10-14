@@ -33,6 +33,6 @@ console.log (typeof textTwo);
 console.log (typeof textThree);
 console.log (typeof isTrue);
 console.log (typeof isEqual);
-console.log (typeof PetName);
+console.log (typeof petName);
 console.log (typeof petAge);
 console.log (typeof human);
