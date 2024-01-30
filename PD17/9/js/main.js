@@ -1,5 +1,6 @@
-let str = 'abcdefghijklmnopqrstuvwxyz';
-function sortStringAlphabetically(str) {
-  return str.split('').sort().join('');
+function printElementsByClass(className) {
+  const elements = document.getElementsByClassName(className);
+  for (let i = 0; i < elements.length; i++) {
+    console.log(elements[i]);
+  }
 }
-console.log(sortStringAlphabetically(str));
