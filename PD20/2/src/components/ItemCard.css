@@ -1,0 +1,17 @@
+p {
+    width: 20rem;
+    text-align: left;
+    font-size: 24px;
+}
+button {
+    width: 20rem;
+}
+img {
+    width: 20rem;
+}
+
+.ItemContainer {
+    border: 1px solid gray;
+    border-radius: 1rem;
+    margin:1rem;
+}

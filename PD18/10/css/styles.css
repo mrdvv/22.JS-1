@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  background-color: rgb(14,0,255);
+  background: linear-gradient(90deg, rgba(14,0,255,1) 0%, rgba(0,212,255,1) 100%);
+  padding: 20px;
+}
+
+h1 {
+  text-align: left;
+}
+
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  display: flex;
+  margin-bottom: 10px;
+
+}
+
+.column {
+  flex: 1;
+  margin: 15px;
+}
+
+label {
+  display: block;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type="submit"] {
+  background-color: rgb(14,0,255);
+  background: linear-gradient(90deg, rgba(14,0,255,1) 0%, rgba(0,212,255,1) 100%);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+.gender-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;;
+}
+
+.gender-options label {
+  margin-right: 160px;
+}
+
+.gender-options input[type="radio"] {
+  display: flex;
+}
